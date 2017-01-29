@@ -1,0 +1,29 @@
+<html>
+<head>
+<style>
+#app {
+  border: 10px solid red;
+}
+</style>
+  <title>My Page</title>
+</head>
+<body>
+<div id="app">
+  <p>Hello my name is:
+    <div id="fname"></div>
+</p>
+</div>
+</body>
+<script>
+window.onload = function () {
+
+var box ='Something in my box'
+var fname = prompt ('Whats your name?')
+//var sname = prompt ('Whats your sport')
+//console.log(fname)
+var app = document.getElementById('fname')
+app.innerHTML= fname
+
+};
+</script>
+</html>
